@@ -3,8 +3,16 @@
 Homepage: https://github.com/Gurjinder7/react-drag-and-drop#readme  :wave:
 
   ** ***<u>made with and for React 18</u>*** ** :smile:
+### Features:
+* Drop a file or choose one
+* Set size limits to the files in MBs
+* Allow all types of files or a single type of files 
+* See name and size of the file in widget
+* Drop a new one to replace or remove the selected file
+* Style as per your usage using custom CSS styles
+* very light weight
 
-![alt text](image-1.png)
+![alt text](image.png)
 ### How to install
 ```npm i @gurjinder7/react-drag-and-drop```
 
