@@ -11,6 +11,7 @@ Homepage: https://github.com/Gurjinder7/react-drag-and-drop#readme  :wave:
 
 1. Import into the project (where ever you need the feature)
    1. ```import DragAndDrop from '@gurjinder7/react-drag-and-drop'```
+   2. ```import '../node_modules/@gurjinder7/react-drag-and-drop/src/style.css'```
 2. Format for use in JSX
    ```
    <DragAndDrop 
