@@ -1,6 +1,6 @@
 {
   "name": "@gurjinder7/react-drag-and-drop",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Reusable and customizable React component to facilitate drag and drop",
   "main": "lib/index.js",
   "scripts": {

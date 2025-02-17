@@ -1,4 +1,4 @@
-.inputfile {
+input.gur7_input_file_457 {
 	width: 0.1px;
 	height: 0.1px;
 	opacity: 0;
@@ -8,7 +8,7 @@
 }
 
 
-label {
+label.gur7_label_container_457 {
   font-size: 1.25em;
   font-weight: 700;
   color: black;
@@ -21,33 +21,23 @@ label {
   position: relative;
   margin: 1rem;
   border: 0.5px solid #333;
+  cursor: pointer;
   
 }
 
-label,
-.inputfile + label:hover {
+label.gur7_label_container_457,
+.gur7_input_file_457 + label.gur7_label_container_457:hover {
   background-color: gainsboro;
 }
 
-
-label {
-	cursor: pointer; /* "hand" cursor */
-}
-
-
-label {
-	/* outline: 1px dotted #000; */
-	/* outline: -webkit-focus-ring-color auto 5px; */
-}
-
-p {
+p.gur7_feedback_info {
   margin:0;
   font-weight: 600;
   font-size: .8rem;
   /* text-wrap:; */
 }
 
-span {
+span.gur7_cross {
   position: absolute;
   top: 1%;
   right: 2%;

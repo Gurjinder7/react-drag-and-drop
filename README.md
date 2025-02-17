@@ -22,6 +22,11 @@ Homepage: https://github.com/Gurjinder7/react-drag-and-drop#readme  :wave:
 3. The component will start working for the intended functionality
    1. This will take any file format and size.
    2. **NOTE**: <u>***Adding "id" and "refs" is important to avoid glitches***.</u> :worried:
+4. Styling: :star:
+   1. you can use custom CSS to style the component
+   2. The ```id``` can be used as the container for styling which is basically a for ```<label>``` tag in the component
+      1. Then other elements like ```<p>```, ```<span>``` can be styled as well. 
+      2. Example: ```label#file123 { background-color: red; }```
 
 ### Parameters:
 Following are some important information about the parameters, also informs about how you can add restrictions for some use cases.
