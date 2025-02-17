@@ -1,7 +1,8 @@
 
-import { forwardRef, useState } from "react";
+// import { forwardRef, useState } from "react";
+import React from "react";
 
-const DragAndDrop = forwardRef(
+const DragAndDrop = React.forwardRef(
     (
         {
             setFileData = (e) => {
@@ -14,8 +15,8 @@ const DragAndDrop = forwardRef(
         },
         ref,
     ) => {
-        const [file, setFile] = useState(null);
-        const [showWarning, setShowWarning] = useState(false);
+        const [file, setFile] = React.useState(null);
+        const [showWarning, setShowWarning] = React.useState(false);
         const handleDrag = (e) => {
             e.preventDefault();
             e.stopPropagation();
