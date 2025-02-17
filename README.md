@@ -25,11 +25,11 @@ Homepage: https://github.com/Gurjinder7/react-drag-and-drop#readme  :wave:
 
 ### Parameters:
 Following are some important information about the parameters, also informs about how you can add restrictions for some use cases.
-* Required:
+* **Required**: :point_left:
   * ```setFileData``` - to receive the file object from this component, use event object in the receving function for the file data.
   * ```id``` - to uniquely identify the component in DOM 
   * ```ref``` - to receive ref for the component
-* Optional
+* **Optional** :v:
   * ```style``` - you can add your own css classes to overwrite the styling
   * ```size``` - mention a number to limit the file size (in MBs)
     * example: if your write 1, that means size limit of 1 MB.
