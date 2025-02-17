@@ -12,6 +12,8 @@ Homepage: https://github.com/Gurjinder7/react-drag-and-drop#readme  :wave:
 1. Import into the project (where ever you need the feature)
    1. ```import DragAndDrop from '@gurjinder7/react-drag-and-drop'```
    2. ```import '../node_modules/@gurjinder7/react-drag-and-drop/src/style.css'```
+      1. You can import the CSS either in ```App.jsx``` (if you are going to use the component in different components).
+      2. You can import the CSS in the component you are importing the widget. 
 2. Format for use in JSX
    ```
    <DragAndDrop 
