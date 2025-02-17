@@ -1,8 +1,8 @@
 # React-drag-and-drop
 
-Homepage: https://github.com/Gurjinder7/react-drag-and-drop#readme
+Homepage: https://github.com/Gurjinder7/react-drag-and-drop#readme  :wave:
 
-  ** ***<u>made for React 18</u>*** ** 
+  ** ***<u>made for React 18</u>*** ** :smile:
 
 ### How to install
 ```npm i @gurjinder7/react-drag-and-drop```
@@ -59,8 +59,8 @@ Following are some important information about the parameters, also informs abou
      accept="image"
     >
 
-##### <u>Important Note:</u> 
+##### <u>Important Note:</u> :imp:
 ***Different id and refs is important for multiple instances:*** if you are using more than one instance of the component, otherwise you will experience glitch of file being attached to first instance every time you try to add a file to  any other instance of the component.
 
-#### Report an issues!
+#### Report an issues! :cry:
 * Please raise an issue on the package repo at: https://github.com/Gurjinder7/react-drag-and-drop/issues
