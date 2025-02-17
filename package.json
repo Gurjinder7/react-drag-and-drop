@@ -1,8 +1,8 @@
 {
-  "name": "@gurjinder7/react-drag-and-drop",
+  "name": "react-drag-and-drop",
   "version": "1.0.0",
-  "description": "\"Reusable and customizable React component to facilitate drag and drop\"",
-  "main": "\"src/index.js\"",
+  "description": "Reusable and customizable React component to facilitate drag and drop",
+  "main": "src/index.js",
   "scripts": {
     "build": "babel src -d dist",
     "prepublishOnly": "npm run build"
