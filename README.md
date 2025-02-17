@@ -4,6 +4,7 @@ Homepage: https://github.com/Gurjinder7/react-drag-and-drop#readme  :wave:
 
   ** ***<u>made with and for React 18</u>*** ** :smile:
 
+![alt text](image-1.png)
 ### How to install
 ```npm i @gurjinder7/react-drag-and-drop```
 
