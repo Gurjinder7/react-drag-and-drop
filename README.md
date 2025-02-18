@@ -26,7 +26,7 @@ Homepage: https://github.com/Gurjinder7/react-drag-and-drop#readme  :wave:
 2. Format for use in JSX
    ```
    <DragAndDrop 
-    setFileData={<your_file_receiving_function>}
+    getFileData={<your_file_receiving_function>}
     id="<some_id>"
     ref={<ref_for_this_element>}
     >
@@ -43,7 +43,7 @@ Homepage: https://github.com/Gurjinder7/react-drag-and-drop#readme  :wave:
 ### Parameters:
 Following are some important information about the parameters, also informs about how you can add restrictions for some use cases.
 * **Required**: :point_left:
-  * ```setFileData``` - to receive the file object from this component, use event object in the receving function for the file data.
+  * ```getFileData``` - to receive the file object from this component, use event object in the receving function for the file data.
   * ```id``` - to uniquely identify the component in DOM 
   * ```ref``` - to receive ref for the component
 * **Optional** :v:
@@ -68,7 +68,7 @@ Following are some important information about the parameters, also informs abou
     }
 
     <DragAndDrop 
-     setFileData={getFileDataFromDragAndDrop}
+     getFileData={getFileDataFromDragAndDrop}
      id="file123"
      ref={fileRef}
      style="bg-red bg-border"
