@@ -50,12 +50,10 @@ Following are some important information about the parameters, also informs abou
   * ```style``` - you can add your own css classes to overwrite the styling
   * ```size``` - mention a number to limit the file size (in MBs)
     * example: if your write 1, that means size limit of 1 MB.
-  * ```accept```- mention one of the following to limit the file type
-    * ```image``` - only allows images of extensions - ```.jpeg, .jpg, .png```
-    * ```pdf``` - allows ```.pdf``` format only
-    * ```doc``` - allows ```.docx, .doc``` formats
-    * ```csv``` - allows ```.csv``` format only
-    * ```excel``` - allows ```.xlsx, .odt``` formats
+  * ```accept```- mention any file extension to limit the file type
+    * You can do ```accept="png"``` for only allowing ```.png``` file types
+      * <i>Rule of thumb is your intended file extension should match the accept value(s)</i>. 
+      * <u>Note: don't include dot(.) in the accept values.</u> 
     * You can combine multiple file extensions to allow more than one format
       * ```png/pdf``` or ```jpg/jpeg/png``` or ```docx/pdf``` or ```csv/xlsx``` etc. :point_left:
 
@@ -75,7 +73,7 @@ Following are some important information about the parameters, also informs abou
      ref={fileRef}
      style="bg-red bg-border"
      size="1"
-     accept="image"
+     accept="pdf/docx"
     >
 
 ##### <u>Important Note:</u> :imp:
