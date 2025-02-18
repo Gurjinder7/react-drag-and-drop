@@ -84,35 +84,17 @@ const DragAndDrop = React.forwardRef(
 		const checkFileType = (file) => {
 			const extPattern = /\.[0-9a-z]+$/i;
 			const fileExt = file.name.match(extPattern)[0];
+			const fileType = fileExt.substring(1,fileExt.length);
+
 
 			if (accept?.length === 0) {
 				return true;
 			}
-			if (accept === "pdf" && fileExt === ".pdf") {
+
+			if (accept.includes(fileType)) {
 				return true;
 			}
-			if (
-				(accept === "image" && fileExt === ".jpg") ||
-				(accept === "image" && fileExt === ".jpeg") ||
-				(accept === "image" && fileExt === ".png")
-			) {
-				return true;
-			}
-			if (
-				(accept === "doc" && fileExt === ".doc") ||
-				(accept === "doc" && fileExt === ".docx")
-			) {
-				return true;
-			}
-			if (accept === "csv" && fileExt === ".csv") {
-				return true;
-			}
-			if (
-				(accept === "excel" && fileExt === ".xlsx") ||
-				(accept === "excel" && fileExt === ".ods")
-			) {
-				return true;
-			}
+
 			return false;
 		};
 

@@ -6,7 +6,7 @@ Homepage: https://github.com/Gurjinder7/react-drag-and-drop#readme  :wave:
 ### Features:
 * Drop a file or choose one
 * Set size limits to the files in MBs
-* Allow all types of files or a single type of files 
+* Allow all types of files or a single type of files or a combination! :smirk: 
 * See name and size of the file in widget
 * Drop a new one to replace or remove the selected file
 * Style as per your usage using custom CSS styles
@@ -20,7 +20,7 @@ Homepage: https://github.com/Gurjinder7/react-drag-and-drop#readme  :wave:
 
 1. Import into the project (where ever you need the feature)
    1. ```import DragAndDrop from '@gurjinder7/react-drag-and-drop'```
-   2. ```import '../node_modules/@gurjinder7/react-drag-and-drop/src/style.css'```
+   2. ```import '@gurjinder7/react-drag-and-drop/src/style.css'```
       1. You can import the CSS either in ```App.jsx``` (if you are going to use the component in different components).
       2. You can import the CSS in the component you are importing the widget. 
 2. Format for use in JSX
@@ -56,6 +56,8 @@ Following are some important information about the parameters, also informs abou
     * ```doc``` - allows ```.docx, .doc``` formats
     * ```csv``` - allows ```.csv``` format only
     * ```excel``` - allows ```.xlsx, .odt``` formats
+    * You can combine multiple file extensions to allow more than one format
+      * ```png/pdf``` or ```jpg/jpeg/png``` or ```docx/pdf``` or ```csv/xlsx``` etc. :point_left:
 
 ### Example with optional parameters:
 
