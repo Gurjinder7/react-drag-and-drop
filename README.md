@@ -2,7 +2,7 @@
 
 Homepage: https://github.com/Gurjinder7/react-drag-and-drop#readme  :wave:
 
-  ** ***<u>made with and for React 18</u>*** ** :smile:
+  ** ***<u>Made with and for React 18</u>*** ** :smile:
 ### Features:
 * Drop a file or choose one
 * Set size limits to the files in MBs

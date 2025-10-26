@@ -1,5 +1,23 @@
 import React from "react";
 
+/**
+ * @param getFileData - Required* - to receive the file object from this component, use event object in the receving function for the file data.
+ * @param id - Required* - to uniquely identify the component in DOM
+ * @param ref -  Required* - to receive ref for the component
+ * @param style - Optional - add your own css classes to overwrite the styling. You can add any CSS classes to overwrite the input type styling
+ * @param size - Optional - mention a number to limit the file size (in MBs)
+ * @param accept - Optional - mention any file extension to limit the file type . You can do single file extension type or combine multiple file extensions to allow more than one format as in example.
+ * 
+ * @example <DragAndDrop 
+ getFileData={getFileDataFromDragAndDrop}
+ id="file123"
+ ref={fileRef}
+ style="bg-red bg-border"
+ size="1"
+ accept="pdf/docx"
+>
+@description Check Read me of the package for more details. Please Note: Different id and refs is important for multiple instances.
+ */
 const DragAndDrop = React.forwardRef(
 	(
 		{

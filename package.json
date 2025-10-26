@@ -1,11 +1,12 @@
 {
   "name": "@gurjinder7/react-drag-and-drop",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Reusable and customizable React component to facilitate drag and drop",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "docs": "jsdoc -c jsdoc.json"
   },
   "repository": {
     "type": "git",
@@ -30,7 +31,6 @@
     "light-react",
     "customizable",
     "custom-css"
-
   ],
   "peerDependencies": {
     "react": "^18.3.1",
@@ -45,6 +45,7 @@
   "devDependencies": {
     "@babel/cli": "^7.26.4",
     "@babel/preset-env": "^7.26.0",
-    "@babel/preset-react": "^7.26.3"
+    "@babel/preset-react": "^7.26.3",
+    "jsdoc": "^4.0.5"
   }
 }
